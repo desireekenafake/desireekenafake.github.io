@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+         #dLogo{width:700px; height:160px; background-color: white; padding-top: 20px; margin-left: auto; margin-right: auto;} 
+        </style>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        
+<!-- JQUERY SLIDESHOW -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="js/responsiveslides.js"></script>
+        <link href="css/responsiveslides.css" rel="stylesheet" type="text/css">
+        
+<!-- JQUERY SLIDESHOW -->
+
+     </head>
+    <body>
+        <div id="dPage">
+            <div id="dHeader">
+               <div id="dLogo">
+                    <a href="index.html"><img src="images/AlkLogo4.jpg" alt="Adrienne Kenafake visual artist" class="logoSize"></a><!-- image logo in here -->
+               </div><!-- eo dLogo -->
+            </div><!-- eo dHeader -->
+        <div id="dNav">
+           <div id="dRule"></div><!-- eo dRule -->
+            <div id="dNbtns">
+            
+<a class="dNspace" style="background-color:#ebe9e9; margin-left:auto;" href="index.html">Home</a><!-- a(anchor) show page on -->
+<a class="dNspace" href="webpages/About.html" >About</a>
+<a class="dNspace" href="webpages/Portfolio.html" >Portfolio</a>
+<a class="dNspace" href="webpages/Studio.html" >Studio</a> 
+<a class="dNspace" href="webpages/CV.html" >CV</a>
+<a href="webpages/Contact.html" >Contact</a>
+              
+            </div><!-- eo dNbtns -->         
+        </div><!-- eo dNav -->
+            <div id="dContent">
+                
+<!-- so slideshow --><div id="slideshow">
+
+                    <ul class="rslides"> 
+                      <li><a href="Webpages/RecentWorks.html" style="text-decoration:none;"><img src="images/Slides/Stormbird_ss.jpg" alt="Stormbird image"><p>&nbsp; Stormbird, 2014</p></a></li>
+                        <li><a href="Webpages/PreviousWorks.html" style="text-decoration:none;"><img src="images/Slides/The_Wanderlust_ss.jpg" alt="The Wanderlust Image"><p>&nbsp; The Wanderlust, 2013</p></a></li>
+                        <li><a href="Webpages/RecentWorks.html" style="text-decoration:none;"><img src="images/Slides/Windfall_ss.jpg" alt="Windfall Image"><p>&nbsp; Windfall, 2014</p></a></li> 
+                        <li><a href="Webpages/RecentWorks.html" style="text-decoration:none;"><img src="images/Slides/Flyblown_ss.jpg" alt="Flyblown image"><p>&nbsp; Flyblown, 2014</p></a></li>
+                        <li><a href="Webpages/RecentWorks.html" style="text-decoration:none;"><img src="images/Slides/Meander_ss.jpg" alt="Meander image"><p>&nbsp; Meander, 2014</p></a></li>
+                      <li><img src="images/Slides/Street_Urchins_ss.jpg" alt="Street Urchins image"><p>&nbsp; Street Urchins, 2011</p></li>
+                        <li><a href="Webpages/PreviousWorks.html" style="text-decoration:none;"><img src="images/Slides/Undertow_ss.jpg" alt="Undertow image"><p>&nbsp; Undertow, 2011</p></a></li>
+                        <li><a href="Webpages/RecentWorks.html" style="text-decoration:none;"><img src="images/Slides/Wait_ss.jpg" alt="Wait image"><p>&nbsp; Wait, 2013</p></a></li>
+                        <li><a href="Webpages/PreviousWorks.html" style="text-decoration:none;"><img src="images/Slides/The_End_of_the_Line_ss.jpg" alt="The End of the Line image"><p>The End of the Line, 2009</p></a></li>
+                        <li><a href="Webpages/RecentWorks.html" style="text-decoration:none;"><img src="images/Slides/Tar_Babies_ss.jpg" alt="Tar babies Image"><p>&nbsp; Tar Babies, 2014</p></a></li>
+                    </ul>
+
+                    <script>
+                      $(function() {
+                        $(".rslides").responsiveSlides();
+                        $(".rslides").responsiveSlides({
+                          auto: true,             // Boolean: Animate automatically, true or false
+                          
+                            speed: 1500,            // Integer: Speed of the transition, in milliseconds
+                          timeout: 20000,          // Integer: Time between slide transitions, in milliseconds
+                   
+                          nav: false,             // Boolean: Show navigation, true or false
+                    
+                          prevText: " < ",   // String: Text for the "previous" button
+                          nextText: " > ",       // String: Text for the "next" button
+                          
+                        });
+                      });
+                    </script>
+            </div><!-- eo slideshow -->
+                
+            </div><!-- eo dContent -->
+            
+        </div><!-- eo dPage -->    
+        <div id="dFooter" >
+                <p>&copy; Adrienne Kenafake 2015</p>
+            
+            </div><!-- eo dFooter -->
+    </body>
+</html>
+                

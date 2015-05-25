@@ -1,0 +1,118 @@
+body{margin: 0; border: 0; padding: 0;}
+            body{font-size: 16px; font-family: Arial,Helvetica,  sans-serif; color:#848383;}
+            h1{ font-size: 2em;}
+            h2{ font-size: 1.7em;}
+            h3{ font-size: 1.5em;}
+            h4{ font-size: 1.2em;}
+            h5{ font-size: 1em;}
+            h6{ font-size: .7em;}
+    .logoSmallCentre{width:300px; display:block; margin-left:auto; margin-right:auto;}
+    #dFooter{text-align: center; padding-bottom: 5px; padding-top: 5px; color:#e0992a; margin-top: 0;font-size: 12px; }
+    .example-image{width:200px; height:200px; margin-right: 10px;margin-left: 10px; margin-bottom: 20px;border-radius: 10px;}
+    .dBackBtns{ color:#474646;  background-color:white;border-radius:5px; padding:5px; text-decoration: none; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25); }        
+    .dBackBtns:hover{height:50px; text-align: right; background-color: #ebe9e9;}
+    .dBox{max-width:700px; background-color: white; margin-left: auto;margin-right: auto;}
+    .dbox img {max-width: 700px;}
+    .navImg{border:2px solid white; border-radius: 10px; width:80%; margin-left:10%;}
+    .navImg:hover{border:2px solid #474646;}
+    #dProcess{max-width:800px; height= 300px; background-color: white; margin-left: auto;margin-right: auto;}
+    #dStudio{max-width:800px; height= 300px; background-color: white; margin-left: auto;margin-right: auto;}
+    #dInspiration{max-width:800px; height= 300px; background-color: white; margin-left: auto;margin-right: auto;}
+
+
+   
+
+    @media only screen and (min-width: 320px) 
+{
+    #dPage {width:300px; min-height:400px; background-color:white; margin:0 auto;}
+    #dHeader {width:300px;height:80px; background-color:white;}
+    #dNav {height: auto;padding-top: 10px;}
+    #dNav a{font-size: 12px; color:#474646; text-decoration: none; padding: 5px; background-color:white;border-radius: 5px; display: block; }
+    #dNav a:hover{ background-color:#ebe9e9;}
+    #dNbtns{padding-top: 0px;}
+    #dContent{background-color:white;color:#848383; width:300px; min-height:400px;}
+    .logoSize {width:300px;}
+    #slideshow {max-width:950px; margin-left:auto; margin-right:auto; padding-top:20px;}
+    #dPhotos{width:300px; min-height:700px; background-color: white; margin-left: auto; margin-right: auto; padding-top: 20px;text-align:center;} 
+    #dRecentWorks{max-width:650px; min-height:80px; margin-left:15px; margin-right:15px; background-color:white;color:#848383;}  
+    #dAbout{max-width:900px; min-height:400px; background-color: white; margin-left: auto; margin-right: auto; padding-top:40px; text-align: center;}
+    #dAboutText{text-align:justify; margin-left: 40px; margin-right: 40px;margin-top:40px;color:#848383; } 
+    #dCvAbout{max-width:900px; min-height:700px; background-color: white; margin-left: auto; margin-right: auto; padding-top:10px; text-align: center;}
+    #dCvText{width:250px;text-align:justify; padding-left: 25px ;color:#848383; }
+    #dStudioPics{width:300px; min-height:700px; background-color: white; margin-left: auto; margin-right: auto; padding-top: 20px;text-align:center;}
+      
+}
+
+
+    @media only screen and (min-width: 480px) 
+    {
+    #dPage {width:470px; min-height:400px; background-color:white; margin:0 auto;}
+    #dHeader {width:470px;height:140px; background-color:white;}
+    #dNav{background-color: white; height: 30px; padding-top:6px }
+    #dNav a{font-size: 14px; color:#474646; text-decoration: none; padding: 5px; background-color:white; border-radius: 5px; display: inline; }
+    #dNav a:hover{ height:50px;  text-align: right; background-color:#ebe9e9;}
+    #dNbtns{padding-top: 0px; background: white; width: 400px; margin: auto; position: relative;}
+    .dNspace{margin-right: 15px;text-align: center;}
+    #dContent{background-color:white;color:#848383; width:470px; min-height:600px;}
+    .logoSize {width:470px;}
+    #slideshow {max-width:950px; margin-left:auto; margin-right:auto; padding-top:50px;}
+    #dPhotos{width:420px; min-height:700px; background-color: white; margin-left: auto; margin-right: auto; padding-top: 20px;text-align:center;} 
+    #dRecentWorks{max-width:650px; min-height:80px; margin-left:15px; margin-right:15px; background-color:white;color:#848383;}  
+    #dAbout{max-width:900px; min-height:400px; background-color: white; margin-left: auto; margin-right: auto; padding-top:40px; text-align: center;}
+    #dAboutText{text-align:justify; margin-left: 40px; margin-right: 40px;margin-top:40px;color:#848383; } 
+    #dCvAbout{max-width:900px; min-height:700px; background-color: white; margin-left: auto; margin-right: auto; padding-top:10px; text-align: center;}
+    #dCvText{width:420px;text-align:justify; padding-left: 25px ;color:#848383; }
+    #dStudioPics{width:470px; min-height:700px; background-color: white; margin-left: auto; margin-right: auto; padding-top: 20px;text-align:center;}
+
+}
+
+    @media only screen and (min-width: 768px) 
+    {
+    #dPage {width:760px; min-height:800px; background-color:white; margin:0 auto;}
+    #dHeader {width:760px;height:180px; background-color:white;}
+    #dNav {text-align: center; background-color: white; height: 30px; padding-top:6px}
+    #dNav a{ font-size: 16px; color:#474646; text-decoration: none; padding: 5px; background-color:white; border-radius: 5px; }
+    #dNav a:hover{  height:50px;  text-align: right; background-color:#ebe9e9;}
+    #dNbtns{padding-top: 0px; background: white; width: 500px; margin: auto; position: relative;}
+    .dNspace{margin-right: 25px;text-align: center;}
+    #dRule { border: 1px solid #d1d0d0; position: absolute; margin-left: 2px; margin-top: 10px; width: 750px; }
+    #dContent{background-color:white;color:#848383; width:760px; min-height:700px;}  
+    .logoSize {width:600px;padding-left: 50px;}
+    #slideshow {max-width:950px; margin-left:auto; margin-right:auto; padding-top:100px;}
+    #dPhotos{width:700px; min-height:700px; background-color: white; margin-left: auto; margin-right: auto; padding-top: 20px;text-align:center;} 
+    #dRecentWorks{max-width:650px; min-height:80px; margin:auto; background-color:white;color:#848383;}  
+    #dAbout{max-width:900px; min-height:700px; background-color: white; margin-left: auto; margin-right: auto; padding-top:40px; text-align: center;}
+    #dAboutText{text-align:justify; margin-left: 100px; margin-right: 100px;margin-top:40px;color:#848383; } 
+    #dCvAbout{max-width:900px; min-height:700px; background-color: white; margin-left: auto; margin-right: auto; padding-top:10px; text-align: center;}
+    #dCvText{width:600px;text-align:justify; padding-left: 80px ;color:#848383; }
+    #dStudioPics{width:700px; min-height:400px; background-color: white; margin-left: auto; margin-right: auto; padding-top: 20px;text-align:center;}
+         
+}
+
+
+
+    @media only screen and (min-width: 1024px) 
+   {
+    #dPage {width:1000px; min-height:800px; background-color:white; margin:0 auto;}
+    #dHeader {width:1000px;height:180px; background-color:white;}
+    #dNav {text-align: center; background-color: white; height: 30px; padding-top:6px; color:#d1d0d0;}
+    #dNav a{ font-size: 16px; color:#474646; text-decoration: none; padding: 5px; background-color:white; border-radius: 5px; }
+    #dNav a:hover{  height:50px;  text-align: right; background-color:#ebe9e9;}
+    #dNbtns{padding-top: 0px; background: white; width: 600px; margin: auto; position: relative;}
+    .dNspace{margin-right: 40px;text-align: center;}
+    #dRule { border: 1px solid #d1d0d0; position: absolute; margin-left: 25px; margin-top: 10px; width: 950px; }
+    #dContent{background-color:white;color:#848383; width:1000px; min-height:800px;}
+    .logoSize {width:700px;padding-left: 0px;}
+    #slideshow {max-width:950px; margin-left:auto; margin-right:auto; padding-top:100px;}
+    #dPhotos{width:900px; min-height:700px; background-color: white; margin-left: auto; margin-right: auto; padding-top: 25px;text-align:center;}
+    #dRecentWorks{max-width:800px; min-height:80px; margin:auto; background-color:white;color:#848383;}  
+    #dAbout{max-width:900px; min-height:700px; background-color: white; margin-left: auto; margin-right: auto; padding-top:40px; text-align: center;}
+    #dAboutText{text-align:justify; margin-left: 100px; margin-right: 100px;margin-top:40px;color:#848383; }
+    #dCvAbout{max-width:900px; min-height:700px; background-color: white; margin-left: auto; margin-right: auto; padding-top:20px; text-align: center;}
+    #dCvText{text-align:justify; margin-left: 100px; margin-right: 100px;margin-top:40px;color:#848383; padding-left: 45px; }        
+#dStudioPics{width:700px; min-height:400px; background-color: white; margin-left: auto; margin-right: auto; padding-top: 25px;text-align:center;}
+}
+
+
+
+      
